@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;   
+}
+
+.title__h1{
+    margin-top: 1.5rem;
+    color:#ffff;
+    font-size: 3rem;
+    text-shadow: 0 0 1rem rgb(218, 216, 216);
+}
+
+.add__container{
+    border-radius: 0.5rem;
+    width: 95%;
+    padding: 0.5rem;
+    display: flex;
+    background: #202020b2;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.add__label{
+    color:#ffff;
+}
+.add__txt{
+    background: #0000;
+    outline: none;
+    border: none;
+    padding: 0.1rem;
+    padding-left: 0.3rem;
+    border-bottom: 0.1rem solid #b5179e;
+    color: #ffff;
+}
+.add__btn{
+    border: none;
+    background: #813ab4;
+    background: linear-gradient(36deg, rgba(129,58,180,1) 30%, rgba(29,30,253,1) 100%);
+    border-radius: 0.3rem;
+    padding: 0 0.5rem;
+    color: #ffff;
+    cursor: pointer;
+}
+.container__task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 50%;
+    overflow:auto;
+}
+.container__task::-webkit-scrollbar{
+    width: 0.1rem;
+}
+
+.task__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.task__list-item{
+    background: #2020206b;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    align-items: center;
+    overflow: hidden;
+}
+.list-item__linea{
+    display: inline-block;
+    background: #480ca8;
+    width: 0.5rem;
+    height: 100vh;
+}
+.list-item__texto{
+    color: #ffff;
+    width: 85%;
+}
+.list-item__btn-cerrar{
+    color: #d00000;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.1rem;
+    width: 2rem;
+}
+.btn-borrarTodo{
+    background: #d00000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffff;
+    font-weight: bold;
+}
