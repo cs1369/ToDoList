@@ -105,7 +105,7 @@ body{
     color: #ffff;
     width: 85%;
 }
-.list-item__btn-cerrar{
+.list-item__btn-delete{
     color: #d00000;
     border-radius: 100%;
     text-align: center;
@@ -113,7 +113,7 @@ body{
     padding: 0.1rem;
     width: 2rem;
 }
-.btn-borrarTodo{
+.btn-deleteAll{
     background: #d00000;
     padding: 0.5rem 1rem;
     border: none;
