@@ -37,6 +37,16 @@ body{
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+    position: relative;
+}
+.add__error{
+    position: absolute;
+    color: #ffff;
+    background: #d00000;
+    padding: 0 0.5rem;
+    bottom: 120%;
+    border-radius: 1rem;
+
 }
 .add__label{
     color:#ffff;

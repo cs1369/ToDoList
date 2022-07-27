@@ -13,5 +13,12 @@ function addTasks(){
 }
 
 function showError(error){
-    
+    const msgError=document.createElement("p");
+    msgError.textContent = error;
+    msgError.classList.add("add__error");
+    document.querySelector(".add__container").appendChild(msgError);
+
+    setTimeout(() => {
+        msgError.remove();
+    }, 2000);
 }
